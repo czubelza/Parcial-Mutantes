@@ -80,15 +80,34 @@ GET /stats. Para las estadisticas resultado devuelto:
 
 ```json
 {
-"count_mutant_dna": 40,
-"count_human_dna": 100,
-"ratio": 0.4
+    "countMutantDna": 0,
+    "countHumanDna": 0,
+    "ratio": 0.0
 }
 ```
+ <h1>Para Ejecutar el Proyecto de forma local</h1>
 
-<h1>Ejecución de test automáticos de forma local </h1>
+1. **Descomprimir el archivo**:
+   - Extrae el contenido del archivo comprimido en alguna ubicación de tu elección.
+
+2. **Abrir la carpeta del proyecto con Intellij**
+
+   
+   -Iniciar o correr la aplicación y efectuar los endpoints mencionados con postman o herramientas similares
+
+   
+   _otra opcion es usar la herramienta provista por la api como swagger se puede llamar a ella usando :
+
+        http://localhost:8080/swagger-ui/index.html  
+
+<h1>Ejecución de tests automáticos usando jaCoCo de forma local </h1>
 
 Se ejecuta mediante el comando :
   ```sh
-     npm install
+     ./gradlew test jacocoTestReport
   ```
+<h1>Tests</h1>
+<img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/testAutomaticos.png" alt="Logo" width="8700"/>
+<h1>Stress Test</h1>
+<img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/B.png" alt="Logo" width="8700"/>
+<img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/A.png" alt="Logo" width="8700"/>
