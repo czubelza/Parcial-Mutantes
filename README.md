@@ -67,7 +67,7 @@ Exponer un servicio extra “/stats” que devuelva un Json con las estadística
 [Proyecto](https://parcial-mutantes-h7su.onrender.com)
 
 
-<h1>Endpoints (sea local o en render)</h1>
+<h1>Endpoints </h1>
 POST /mutant. Para Verificar si es mutante se coloca el Ejemplo:
 
 
