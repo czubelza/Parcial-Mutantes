@@ -63,6 +63,8 @@ Anexar una base de datos, la cual guarde los ADN’s verificados con la API. Sol
 
 Exponer un servicio extra “/stats” que devuelva un Json con las estadísticas de las verificaciones de ADN: {"count_mutant_dna" : 40, "count_human_dna" : 100, "ratio" : 0.4 } Tener en cuenta que la API puede recibir fluctuaciones agresivas de tráfico (Entre 100 y 1 millón de peticiones por segundo). Test-Automáticos, Code coverage > 80%.
 
+<h1>Proyecto subido a Render</h1>
+[Proyecto](https://parcial-mutantes-h7su.onrender.com)
 
 
 <h1>Endpoints (sea local o en render)</h1>
@@ -98,9 +100,9 @@ GET /stats. Para las estadisticas resultado devuelto:
    
    _otra opcion es usar la herramienta provista por la api como swagger se puede llamar a ella usando :
 
-        http://localhost:8080/swagger-ui/index.html  
+   http://localhost:8080/swagger-ui/index.html  
 
-<h1>Ejecución de tests automáticos usando jaCoCo de forma local </h1>
+<h1>Ejecución de tests automáticos de forma local </h1>
 
 Se ejecuta mediante el comando :
   ```sh
