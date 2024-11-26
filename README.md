@@ -110,6 +110,6 @@ Se ejecuta mediante el comando :
   ```
 <h1>Tests</h1>
 <img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/testAutomaticos.png" alt="Logo" width="8700"/>
-<h1>Stress Test</h1>
+<h1>Prueba de Stress con Jmeter</h1>
 <img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/B.png" alt="Logo" width="8700"/>
 <img src="https://raw.githubusercontent.com/czubelza/Parcial-Mutantes/refs/heads/main/ArchivosNivel3/A.png" alt="Logo" width="8700"/>
