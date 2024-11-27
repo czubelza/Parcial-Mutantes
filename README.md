@@ -98,9 +98,15 @@ GET /stats. Para las estadisticas resultado devuelto:
    -Iniciar o correr la aplicación y efectuar los endpoints mencionados con postman o herramientas similares
 
    
-   _otra opcion es usar la herramienta provista por la api como swagger se puede llamar a ella usando :
+   _otra opcion es usar la herramienta provista por la api como swagger se puede llamar a ella usando el link siguiente.
 
-   http://localhost:8080/swagger-ui/index.html  
+   Localmente:
+   
+   http://localhost:8080/swagger-ui/index.html
+
+   o en render:
+
+   https://parcial-mutantes-h7su.onrender.com/swagger-ui/index.html
 
 <h1>Ejecución de tests automáticos de forma local </h1>
 
